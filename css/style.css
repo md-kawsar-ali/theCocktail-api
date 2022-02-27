@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s;
+}
+
+.album {
+    padding: 8vw 0;
+}
+
+#products .card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#products img {
+    cursor: pointer;
+}
+
+.modal .modal-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.modal img {
+    height: 300px;
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.modal p {
+    font-size: 18px;
+}
